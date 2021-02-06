@@ -1,0 +1,119 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.nav {
+    margin: 0 70px;
+
+    @media screen and (max-width: 767.98px) {
+        height: 100%;
+    }
+    
+    &.scroll-hide,
+    &.scroll-show {
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgb(170, 190, 170);
+        z-index: 1;
+    }
+
+    &.scroll-hide {
+        transform: translateY(-101%);
+    }
+
+    &.scroll-show {
+        transform: translateY(0);
+        transition: transform .5s linear;
+    }
+
+    @media screen and (max-width: 767.98px) {
+        margin: 0;
+    }
+
+    &__mob {
+        display: none;
+
+        &::before {
+            content: '\221E';
+            margin-right: 10px;
+        }
+
+        @media screen and (max-width: 767.98px) {
+            display: block;
+        }
+    }
+
+    &__mob,
+    &__link {
+        font-size: 1.5rem;
+        color: #F1F1F1;
+        text-transform: uppercase;
+        padding: 35px 25px;
+    }
+   
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        &.fadeIn {
+            animation: fadeIn .5s linear;
+            display: flex;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            background-color: #F1F1F1;
+            height: 1px;
+            width: 100%;
+    
+            @media screen and (max-width: 767.98px) {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 767.98px) {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+        }
+    }
+
+
+    &__link {
+        text-decoration: none;
+        letter-spacing: 0.025em;
+        display: block;
+        outline: none;
+        position: relative;
+        white-space: nowrap;
+
+        &:hover,
+        &:focus {
+            text-decoration: overline;
+        }
+    }
+}
