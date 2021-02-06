@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/abstract/build/static/css/main.b4f19376.chunk.css",
+    "main.js": "/abstract/build/static/js/main.cb9bff4f.chunk.js",
+    "main.js.map": "/abstract/build/static/js/main.cb9bff4f.chunk.js.map",
+    "runtime-main.js": "/abstract/build/static/js/runtime-main.9320f4e6.js",
+    "runtime-main.js.map": "/abstract/build/static/js/runtime-main.9320f4e6.js.map",
+    "static/js/2.cdb1c443.chunk.js": "/abstract/build/static/js/2.cdb1c443.chunk.js",
+    "static/js/2.cdb1c443.chunk.js.map": "/abstract/build/static/js/2.cdb1c443.chunk.js.map",
+    "index.html": "/abstract/build/index.html",
+    "static/css/main.b4f19376.chunk.css.map": "/abstract/build/static/css/main.b4f19376.chunk.css.map",
+    "static/js/2.cdb1c443.chunk.js.LICENSE.txt": "/abstract/build/static/js/2.cdb1c443.chunk.js.LICENSE.txt",
+    "static/media/Header.scss": "/abstract/build/static/media/Background.02c100c8.png",
+    "static/media/JasonWood.5c0fad02.png": "/abstract/build/static/media/JasonWood.5c0fad02.png",
+    "static/media/App.scss": "/abstract/build/static/media/Nexa-Light.facb9c1d.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9320f4e6.js",
+    "static/js/2.cdb1c443.chunk.js",
+    "static/css/main.b4f19376.chunk.css",
+    "static/js/main.cb9bff4f.chunk.js"
+  ]
+}
